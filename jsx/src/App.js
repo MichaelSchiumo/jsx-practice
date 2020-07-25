@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Got the job
-        </a>
-      </header>
-    </div>
-  );
+// import wholefoods from './wholefoods.svg';
+import WholeFoods from './WholeFoods2.svg';
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <img src={WholeFoods} alt='WholeFoods2' />
+        <div>SVG not working?</div>
+      </div>
+    );
+  }
 }
 
 export default App;
